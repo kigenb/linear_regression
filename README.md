@@ -1,6 +1,11 @@
-PREDICTING HOUSE PRICE USING LIUNEAR REGRESSION
+**PREDICTING HOUSE PRICE USING LIUNEAR REGRESSION**
 
-BUSINNESS UNDERSTANDING
+**BUSINNESS UNDERSTANDING**
+
+
+![download (2)](https://user-images.githubusercontent.com/104420862/177191513-91ede9bd-fa60-4516-9dae-1ce3f6fcb40d.jpg)
+
+
 
 Stake holder: Emarld City Realators
 
@@ -8,7 +13,7 @@ Business problem: Emarld City Realators need to provide prospective home seller 
 
 Problem Statement: I will use house data set from King House Sales dataset to build a linear regression model that best predict sales  price  for properties.
 
-DATA UNDERSTANDING
+**DATA UNDERSTANDING**
 
 The project uses the king County House Sales dataset.The data set include all data of home sales from 2014 to 2015.
 The data  can be found kc_house_data.csv in the folder along with descritpion of feature found in  column_names.md
@@ -46,7 +51,7 @@ yr_renovated - Year when house was renovated
 
 zipcode - ZIP Code used by the United States Postal Service
 
-DATA PROCESSING
+**DATA PROCESSING**
 
 We had to clean daata bbefore making predictive models
 
@@ -55,7 +60,7 @@ Droppind some of the column that were not realting to our  business  question su
 
 Dummy encode categeorical variable(Grade)
 
-Modeling
+**Modelling**
 
 We are showing correlation and using regression coefficients in this analysis to be able to show the relationship between one or more features with sale price.
 
@@ -63,7 +68,7 @@ Using regression and interpreting correlation coefficients is effective for this
 
 Buildng complex models with multiple features allows for us to be able to make more accurate, data-driven predictions.
 
-Regression Results
+**Regression Results**
 
 In our final model comprising all features,our model performance based on the R squared improved from 38% to 47%. 
 
@@ -86,16 +91,16 @@ With holding variabble constant,the addition of floor is projected increase sale
 
 From the plot above  increase number of bedrooms in house leads to increase price of house bby 30000 dollars
 
-Recommendations
+**Recommendations******
 
 With holding variable constant, the addition of bathroom increase sale by 30000 dollars .
 
 With holding variabble constant,the addition of floor is projected increase sale by 10000 dollars
 
-limitation: Our model only explains 
-47 percent of the variation in sale price, so we ought to be cautious with our predictions and conclusions. Further, our final model does have high levels of heteroscedasticity, which violates one of the assumptions of linear regression, such that our conclusions may be premature without additional manipulation of the data.
+**limitation**
+Our model only explains 47 percent of the variation in sale price, so we ought to be cautious with our predictions and conclusions. Further, our final model does have high levels of heteroscedasticity, which violates one of the assumptions of linear regression, such that our conclusions may be premature without additional manipulation of the data.
 
-Next Steps:
+**Next Steps**
 
 Collect more recent sales data for more accurate representation of the market
 Investigate influence of zipcode on sale price
