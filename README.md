@@ -70,9 +70,9 @@ Buildng complex models with multiple features allows for us to be able to make m
 
 **Regression Results**
 
-In our final model comprising all features,our model performance based on the R squared improved from 38% to 47%. 
+In our final model comprising all features,our model performance based on the R squared improved to 52. 
 
-Our Model Absolute Error improved which is reduced from the base model to 119321 whichh is good.
+Our Model Absolute Error improved which is reduced from the base model to 0.28841061627109144 whichh is good.
 
 In our final model, all feature hhave signicantly linear relationship with sale price.
 
@@ -81,13 +81,15 @@ With holding variable constant, the addition of bathroom increase sale by 30000 
 With holding variabble constant,the addition of floor is projected increase sale by 10000 dollars.
 
 
-![b25680b0-3de0-47a8-aafc-448584188482](https://user-images.githubusercontent.com/104420862/177187548-107e6925-e452-49f9-a173-326dc091a833.png)
+![7fa3c182-f62e-4980-b571-2dc98b8e8370](https://user-images.githubusercontent.com/104420862/177379552-9d06312a-ffd6-4fe7-897f-e2342f527f57.png)
 
- From plot shows that  ncrease number of floors  increases the price of  by 10,000 dollars
+
+ From plot shows that  ncrease number of bathrooms increases the price of  by 10,000 dollars
  
  
+ ![dbc072b0-58e6-4054-942c-3ac7f9efc42a](https://user-images.githubusercontent.com/104420862/177379614-f2958edc-7171-4bc6-9e37-26ebad6a0319.png)
 
-![375b1392-4d8d-4f8a-bb7c-8a00254c8915](https://user-images.githubusercontent.com/104420862/177189960-5ef15b96-950c-4a96-8462-996e0ee2ec66.png)
+ 
 
 From the plot above  increase number of bedrooms in house leads to increase price of house bby 30000 dollars
 
