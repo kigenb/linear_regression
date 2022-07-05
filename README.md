@@ -70,9 +70,10 @@ Buildng complex models with multiple features allows for us to be able to make m
 
 **Regression Results**
 
-In our final model comprising all features,our model performance based on the R squared improved to 52. 
+In our final model comprising all features,our model performance based on the R squared improved to 55. 
 
-Our Model Absolute Error improved which is reduced from the base model to 0.28841061627109144 whichh is good.
+Our Model Absolute Error improved which is reduced from the base model to 150989.67 
+ whichh is good.
 
 In our final model, all feature hhave signicantly linear relationship with sale price.
 
